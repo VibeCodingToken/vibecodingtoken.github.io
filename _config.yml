@@ -1,8 +1,8 @@
 title: "Vibe Coding (VIBE)"
 description: "Token-gated coding community, access passes, and credentials."
-theme: minima
+remote_theme: just-the-docs/just-the-docs
 url: "https://vibecodingtoken.github.io"
-baseurl: "/home"
+baseurl: ""
 
 header_pages:
   - index.md
