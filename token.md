@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Token
+title: Access Token
 nav_order: 3
 ---
 
