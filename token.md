@@ -1,6 +1,12 @@
+---
+layout: default
+title: TOKEN
+nav_order: 3
+---
+
 # Buy VIBE
 
-**Important:** VIBE is a community access token for vibe‑coding activities, not an investment product. Buying or holding VIBE does **not** give you equity, profit rights, or any guarantee of value. Only use funds you can afford to lose, and do your own research.
+**Important:** $VIBE is a community access token for vibe‑coding activities. Holding $VIBA can gain you access to future hackatons and used to list vide coding projects, and purchase upper tier NFT access passes.
 
 ## Contract address
 
