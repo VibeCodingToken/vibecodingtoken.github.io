@@ -6,7 +6,7 @@
 
 Vibe Coding ($VIBE) is an open‑source Solana community for builders who enjoy “vibe coding” with modern tools, AI copilots, and collaborative workflows. VIBE is designed as a community access token: a way to join a shared coding space, earn recognition, and unlock member‑only channels and resources.
 
-Contract Adress: __FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump__
+**Contract Adress:** [FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump](https://pump.fun/coin/FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump)
 
 ## What Vibe Coding Is (and Is Not)
 
