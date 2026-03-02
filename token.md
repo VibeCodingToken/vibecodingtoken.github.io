@@ -6,7 +6,7 @@ nav_order: 3
 
 # Buy VIBE
 
-**Important:** $VIBE is a community access token for vibe‑coding activities. Holding $VIBA can gain you access to future hackatons and used to list vide coding projects, and purchase upper tier NFT access passes.
+**Important:** $VIBE is a community access token for vibe‑coding activities. Holding $VIBA can gain you access to future hackathons and used to list vide coding projects, and purchase upper tier NFT access passes.
 
 ## Contract address
 
