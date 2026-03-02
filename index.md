@@ -1,4 +1,4 @@
-<img src="./assets/vibe-coding-logo.webp" alt="Vibe Coding Logo" width="80" style="display: block; margin: 0 auto;">
+<img src="./assets/vibe-coding-logo.webp" alt="Vibe Coding Logo" width="100" style="display: block; margin: 0 auto;">
 
 # Vibe Coding (VIBE)
 
