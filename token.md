@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TOKEN
+title: Token
 nav_order: 3
 ---
 
