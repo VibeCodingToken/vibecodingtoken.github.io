@@ -1,3 +1,9 @@
+---
+layout: default
+title: Resources
+nav_order: 2
+---
+
 # Resources
 
 Welcome to the Vibe Coding Resources Hub! Here you'll find everything you need to get started and thrive in our community.
