@@ -1,0 +1,156 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ── Premium dark override for Vibe Coding ── */
+
+body {
+  background-color: #0a0a0f;
+  color: #e2e2e8;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Header / nav bar */
+header {
+  background: linear-gradient(135deg, #0a0a0f 0%, #12121e 100%);
+  border-bottom: 1px solid #7c3aed44;
+  padding: 1.5rem 2rem;
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+header h1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Nav links */
+header nav a {
+  color: #a78bfa;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 1.5rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.3px;
+  transition: color 0.2s;
+}
+
+header nav a:hover {
+  color: #ffffff;
+}
+
+/* Main content area */
+#main_content_wrap {
+  background-color: #0a0a0f;
+}
+
+#main_content {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+h2 {
+  color: #a78bfa;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #1e1e2e;
+  padding-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+  color: #a78bfa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Call-to-action button style — wrap any link like: [List Your Project](#){: .btn} */
+.btn {
+  display: inline-block;
+  background: #7c3aed;
+  color: #ffffff !important;
+  padding: 0.65rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+  text-decoration: none !important;
+}
+
+.btn:hover {
+  background: #6d28d9;
+}
+
+/* Code blocks */
+code, pre {
+  background: #12121e;
+  color: #a78bfa;
+  border: 1px solid #1e1e30;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+/* Blockquotes — use for pricing tiers or highlights */
+blockquote {
+  border-left: 3px solid #7c3aed;
+  background: #12121e;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  color: #c4b5fd;
+}
+
+/* Tables — great for listing directory tiers/pricing */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+th {
+  background: #12121e;
+  color: #a78bfa;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #7c3aed44;
+}
+
+td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #1e1e2e;
+  color: #e2e2e8;
+}
+
+tr:hover td {
+  background: #12121e;
+}
+
+/* Footer */
+footer {
+  background: #06060a;
+  border-top: 1px solid #1e1e2e;
+  color: #6b6b80;
+  font-size: 0.85rem;
+  padding: 1.5rem 2rem;
+}
