@@ -1,8 +1,11 @@
 title: "Vibe Coding (VIBE)"
 description: "Token-gated coding community, access passes, and credentials."
-remote_theme: just-the-docs/just-the-docs
+remote_theme: b2a3e8/jekyll-theme-console
 url: "https://vibecodingtoken.github.io"
 baseurl: ""
+
+style: hacker
+# options: dark | hacker | nord | light
 
 header_pages:
   - index.md
@@ -10,3 +13,6 @@ header_pages:
   - how-to-join.md
   - resources.md
   - legal.md
+
+plugins:
+  - jekyll-remote-theme
