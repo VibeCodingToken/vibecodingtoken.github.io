@@ -6,7 +6,7 @@ baseurl: ""
 header_pages:
   - index.md
   - token.md
-  - how-to-join.md
+  - listing.md
   - resources.md
   - legal.md
 plugins:
