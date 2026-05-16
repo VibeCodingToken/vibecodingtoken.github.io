@@ -4,7 +4,7 @@
 
 [BUY TOKEN](https://trade.phantom.com/token/FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump) | [LIST PROJECT](./listing.md) | [TELEGRAM](https://t.me/vibecoding_vibe)
 
-Vibe Coding ($VIBE) is a Solana based access token for builders who enjoy “vibe coding” with modern tools, AI copilots, and collaborative workflows. VIBE is designed as a community access token: a way to join a shared coding space, earn recognition, and unlock member‑only channels and resources.
+Vibe Coding ($VIBE) is a Solana based community for builders who enjoy “vibe coding” with modern tools, AI copilots, and collaborative workflows. VIBE is designed as a community access token: a way to join a shared coding space, earn recognition, and unlock member‑only channels and resources.
 
 **Contract Adress:** [FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump](https://trade.phantom.com/token/FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump)
 
@@ -31,6 +31,6 @@ Secure your $VIBE tokens today, grab your spot in the community, and put your pr
 ---
 
 ### Quick Links
-* [👉 **Buy $VIBE on Phantom**](https://trade.phantom.com/token/FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump) *(Replace with your actual token link)*
+* [👉 **Buy $VIBE on Phantom**](https://trade.phantom.com/token/FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump)
 * [👉 **Submit Your Project to the Directory**]({{ site.baseurl }}/listing.html)
 * [👉 **View Tokenomics & Utility**]({{ site.baseurl }}/token.html)
