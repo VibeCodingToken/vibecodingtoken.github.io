@@ -13,7 +13,9 @@ and early adopters actively looking for what's being built.
 
 ---
 
-[**⚡ List Your Project — $100**](https://moonpay.hel.io/pay/6a070631b286b5edff5d461f){: .btn}
+[**📝 Submit Project Listing**](https://forms.gle/Qt9Lza3FYKC8JW2s9){: .btn}
+
+[**⚡ Pay for Priority Listing — $100**](https://moonpay.hel.io/pay/6a070631b286b5edff5d461f){: .btn}
 
 ---
 
