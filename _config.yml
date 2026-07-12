@@ -1,6 +1,6 @@
 title: "Vibe Coding"
 description: "The hub for modern builders shipping with AI on Solana."
-remote_theme: pages-themes/midnight@v0.2.0
+remote_theme: pages-themes/hacker@v0.2.0
 url: "https://vibecodingtoken.github.io"
 baseurl: ""
 header_pages:
@@ -12,3 +12,8 @@ header_pages:
   - legal.md
 plugins:
   - jekyll-remote-theme
+
+# Custom color scheme for futuristic vibe coding feel
+sass:
+  sass_dir: _sass
+  style: compressed
