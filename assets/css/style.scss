@@ -21,6 +21,12 @@ body {
   color: $vibe-text !important;
 }
 
+// Hide default GitHub theme header and footer
+.page-header,
+.site-footer {
+  display: none !important;
+}
+
 // Navigation Bar
 .vibe-nav {
   background: linear-gradient(90deg, $vibe-darker 0%, #0f1a35 100%);
@@ -123,12 +129,20 @@ body {
       color: $vibe-primary;
       text-decoration: none;
       font-weight: 700;
+      font-size: 16px;
       transition: all 0.3s ease;
       
       &:hover {
         background-color: $vibe-primary;
         color: $vibe-dark;
         box-shadow: 0 0 15px rgba(0, 217, 255, 0.5);
+      }
+      
+      // Use SVG icons instead of emoji/text
+      svg {
+        width: 18px;
+        height: 18px;
+        fill: currentColor;
       }
     }
   }
