@@ -1,0 +1,416 @@
+---
+---
+
+// Import hacker theme colors first
+@import "{{ site.theme }}";
+
+// Vibe Coding Color Variables
+$vibe-primary: #00d9ff;      // Bright cyan/blue
+$vibe-secondary: #b300ff;    // Vibrant purple
+$vibe-accent: #00ff88;       // Neon green accent
+$vibe-dark: #0a0e27;         // Deep dark background
+$vibe-darker: #050812;       // Even darker for contrast
+$vibe-text: #e0e6ff;         // Light blue-tinted text
+$vibe-text-secondary: #8892b0; // Dimmer text
+$vibe-border: #1a2332;       // Dark border color
+$vibe-highlight: #1f2d4d;    // Code highlight background
+
+// Override body styles
+body {
+  background-color: $vibe-dark !important;
+  color: $vibe-text !important;
+}
+
+// Navigation Bar
+.vibe-nav {
+  background: linear-gradient(90deg, $vibe-darker 0%, #0f1a35 100%);
+  border-bottom: 2px solid $vibe-primary;
+  box-shadow: 0 0 20px rgba(0, 217, 255, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin-bottom: 40px;
+  
+  .nav-container {
+    max-width: 64rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .nav-brand {
+    display: flex;
+    align-items: center;
+    
+    .vibe-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      
+      .logo-img {
+        height: 32px;
+        width: auto;
+      }
+      
+      .logo-text {
+        color: $vibe-primary;
+        font-weight: 700;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+      }
+      
+      &:hover .logo-text {
+        color: $vibe-secondary;
+        text-shadow: 0 0 15px rgba(179, 0, 255, 0.5);
+      }
+    }
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    
+    li {
+      &:before {
+        content: none;
+        margin: 0;
+      }
+    }
+    
+    .nav-link {
+      display: block;
+      padding: 8px 16px;
+      color: $vibe-text-secondary;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9em;
+      letter-spacing: 1px;
+      border-left: 2px solid transparent;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        color: $vibe-primary;
+        border-left-color: $vibe-primary;
+        background-color: rgba(0, 217, 255, 0.1);
+        text-shadow: 0 0 8px rgba(0, 217, 255, 0.4);
+      }
+    }
+  }
+  
+  .nav-socials {
+    display: flex;
+    gap: 12px;
+    
+    .nav-social {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 4px;
+      background-color: rgba(0, 217, 255, 0.1);
+      border: 1px solid $vibe-primary;
+      color: $vibe-primary;
+      text-decoration: none;
+      font-weight: 700;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background-color: $vibe-primary;
+        color: $vibe-dark;
+        box-shadow: 0 0 15px rgba(0, 217, 255, 0.5);
+      }
+    }
+  }
+}
+
+// Main content wrapper
+main.main-content {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+// Links
+a {
+  color: $vibe-primary !important;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    color: $vibe-secondary !important;
+    text-shadow: 0 0 10px rgba(179, 0, 255, 0.5);
+  }
+}
+
+// Buttons
+.btn {
+  background-color: $vibe-primary !important;
+  border-color: $vibe-primary !important;
+  color: $vibe-dark !important;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  margin: 8px 8px 8px 0;
+  padding: 10px 16px;
+  
+  &:hover {
+    background-color: $vibe-secondary !important;
+    border-color: $vibe-secondary !important;
+    box-shadow: 0 0 15px rgba(179, 0, 255, 0.4);
+  }
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: $vibe-primary !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-shadow: 0 0 15px rgba(0, 217, 255, 0.3);
+  border-bottom: 2px solid $vibe-secondary;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: $vibe-secondary !important;
+  font-size: 1.8em;
+  margin-top: 30px;
+}
+
+// Code blocks
+code {
+  background-color: $vibe-highlight !important;
+  border-left: 3px solid $vibe-secondary;
+  color: $vibe-accent !important;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: $vibe-highlight !important;
+  border: 1px solid $vibe-border;
+  border-left: 3px solid $vibe-primary;
+  border-radius: 4px;
+  padding: 12px;
+  overflow-x: auto;
+  
+  code {
+    background-color: transparent !important;
+    border: none;
+    padding: 0;
+    color: $vibe-accent;
+  }
+}
+
+// Horizontal rules
+hr {
+  border-color: $vibe-border;
+  background: linear-gradient(90deg, transparent, $vibe-primary, transparent);
+  height: 2px;
+  border: none;
+  margin: 30px 0;
+}
+
+// Tables
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  
+  th {
+    background-color: $vibe-highlight;
+    color: $vibe-primary;
+    border: 1px solid $vibe-border;
+    padding: 12px;
+    font-weight: 700;
+    border-left: 3px solid $vibe-secondary;
+  }
+  
+  td {
+    border: 1px solid $vibe-border;
+    padding: 12px;
+    color: $vibe-text;
+    
+    &:first-child {
+      color: $vibe-primary;
+      font-weight: 600;
+    }
+  }
+  
+  tr:hover {
+    background-color: rgba(0, 217, 255, 0.05);
+  }
+}
+
+// Footer
+.vibe-footer {
+  background: linear-gradient(180deg, $vibe-darker 0%, #050812 100%);
+  border-top: 2px solid $vibe-secondary;
+  box-shadow: 0 0 20px rgba(179, 0, 255, 0.1);
+  margin-top: 60px;
+  padding: 40px 20px 20px;
+  color: $vibe-text;
+  
+  .footer-container {
+    max-width: 64rem;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+    
+    .footer-section {
+      h4 {
+        color: $vibe-primary;
+        font-size: 1em;
+        margin-bottom: 12px;
+        letter-spacing: 1px;
+        text-shadow: 0 0 8px rgba(0, 217, 255, 0.3);
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        
+        li {
+          &:before {
+            content: "▹ ";
+            color: $vibe-secondary;
+            margin-right: 8px;
+          }
+          
+          margin: 8px 0;
+        }
+      }
+      
+      a {
+        color: $vibe-text-secondary;
+        
+        &:hover {
+          color: $vibe-primary;
+          text-shadow: 0 0 8px rgba(0, 217, 255, 0.4);
+        }
+      }
+    }
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid $vibe-border;
+    padding-top: 20px;
+    text-align: center;
+    color: $vibe-text-secondary;
+    font-size: 0.85em;
+    
+    p {
+      margin: 8px 0;
+    }
+    
+    code {
+      background: none !important;
+      border: none !important;
+      color: $vibe-accent;
+      padding: 0;
+      font-size: 0.85em;
+    }
+  }
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    box-shadow: 0 0 20px rgba(0, 217, 255, 0.3);
+  }
+}
+
+// Lists
+ul, ol {
+  color: $vibe-text;
+}
+
+li {
+  margin: 8px 0;
+  
+  &:before {
+    content: "▹ ";
+    color: $vibe-primary;
+    margin-right: 8px;
+  }
+}
+
+ol li {
+  &:before {
+    content: none;
+  }
+}
+
+// Emphasis
+strong {
+  color: $vibe-primary;
+  font-weight: 700;
+}
+
+em {
+  color: $vibe-secondary;
+}
+
+// Responsive
+@media screen and (max-width: 42em) {
+  h1 {
+    font-size: 1.8em;
+  }
+  
+  h2 {
+    font-size: 1.4em;
+  }
+  
+  .vibe-nav {
+    .nav-container {
+      flex-direction: column;
+      gap: 12px;
+      padding: 12px;
+    }
+    
+    .nav-menu {
+      order: 3;
+      width: 100%;
+      justify-content: center;
+      
+      .nav-link {
+        padding: 6px 12px;
+        font-size: 0.85em;
+      }
+    }
+    
+    .nav-socials {
+      order: 2;
+    }
+  }
+  
+  .vibe-footer {
+    .footer-content {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
