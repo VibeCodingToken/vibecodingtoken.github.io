@@ -1,76 +1,97 @@
----
-layout: default
----
-
-<nav class="vibe-nav">
-  <div class="nav-container">
-    <div class="nav-brand">
-      <a href="{{ site.baseurl }}/" class="vibe-logo">
-        <img src="{{ site.baseurl }}/assets/vibe-coding-logo.webp" alt="Vibe Coding" class="logo-img">
-        <span class="logo-text">VIBE</span>
-      </a>
-    </div>
-    
-    <ul class="nav-menu">
-      <li><a href="{{ site.baseurl }}/" class="nav-link">Home</a></li>
-      <li><a href="{{ site.baseurl }}/directory.html" class="nav-link">Directory</a></li>
-      <li><a href="{{ site.baseurl }}/listing.html" class="nav-link">Submit</a></li>
-      <li><a href="{{ site.baseurl }}/token.html" class="nav-link">Token</a></li>
-      <li><a href="{{ site.baseurl }}/resources.html" class="nav-link">Resources</a></li>
-    </ul>
-
-    <div class="nav-socials">
-      <a href="https://x.com/vibecoding_sol" class="nav-social" title="X/Twitter">𝕏</a>
-      <a href="https://t.me/vibecoding_vibe" class="nav-social" title="Telegram">✈</a>
-      <a href="https://discord.gg/PHSzUF25Y6" class="nav-social" title="Discord">#</a>
-    </div>
-  </div>
-</nav>
-
-{{ content }}
-
-<footer class="vibe-footer">
-  <div class="footer-container">
-    <div class="footer-content">
-      <div class="footer-section">
-        <h4>Vibe Coding</h4>
-        <ul>
-          <li><a href="{{ site.baseurl }}/">Home</a></li>
-          <li><a href="{{ site.baseurl }}/directory.html">Directory</a></li>
-          <li><a href="{{ site.baseurl }}/listing.html">Submit Project</a></li>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <nav class="vibe-nav">
+      <div class="nav-container">
+        <div class="nav-brand">
+          <a href="{{ site.baseurl }}/" class="vibe-logo">
+            <img src="{{ site.baseurl }}/assets/vibe-coding-logo.webp" alt="Vibe Coding" class="logo-img">
+            <span class="logo-text">VIBE</span>
+          </a>
+        </div>
+        
+        <ul class="nav-menu">
+          <li><a href="{{ site.baseurl }}/" class="nav-link">Home</a></li>
+          <li><a href="{{ site.baseurl }}/directory.html" class="nav-link">Directory</a></li>
+          <li><a href="{{ site.baseurl }}/listing.html" class="nav-link">Submit</a></li>
+          <li><a href="{{ site.baseurl }}/token.html" class="nav-link">Token</a></li>
+          <li><a href="{{ site.baseurl }}/resources.html" class="nav-link">Resources</a></li>
         </ul>
-      </div>
 
-      <div class="footer-section">
-        <h4>Community</h4>
-        <ul>
-          <li><a href="https://x.com/vibecoding_sol">X/Twitter</a></li>
-          <li><a href="https://t.me/vibecoding_vibe">Telegram</a></li>
-          <li><a href="https://discord.gg/PHSzUF25Y6">Discord</a></li>
-        </ul>
+        <div class="nav-socials">
+          <a href="https://x.com/vibecoding_sol" class="nav-social" title="X/Twitter">𝕏</a>
+          <a href="https://t.me/vibecoding_vibe" class="nav-social" title="Telegram">✈</a>
+          <a href="https://discord.gg/PHSzUF25Y6" class="nav-social" title="Discord">#</a>
+        </div>
       </div>
+    </nav>
 
-      <div class="footer-section">
-        <h4>Resources</h4>
-        <ul>
-          <li><a href="{{ site.baseurl }}/token.html">$VIBE Token</a></li>
-          <li><a href="{{ site.baseurl }}/resources.html">Dev Resources</a></li>
-          <li><a href="{{ site.baseurl }}/legal.html">Legal</a></li>
-        </ul>
+    <main class="main-content">
+      {{ content }}
+    </main>
+
+    <footer class="vibe-footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Vibe Coding</h4>
+            <ul>
+              <li><a href="{{ site.baseurl }}/">Home</a></li>
+              <li><a href="{{ site.baseurl }}/directory.html">Directory</a></li>
+              <li><a href="{{ site.baseurl }}/listing.html">Submit Project</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Community</h4>
+            <ul>
+              <li><a href="https://x.com/vibecoding_sol">X/Twitter</a></li>
+              <li><a href="https://t.me/vibecoding_vibe">Telegram</a></li>
+              <li><a href="https://discord.gg/PHSzUF25Y6">Discord</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="{{ site.baseurl }}/token.html">$VIBE Token</a></li>
+              <li><a href="{{ site.baseurl }}/resources.html">Dev Resources</a></li>
+              <li><a href="{{ site.baseurl }}/legal.html">Legal</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Trade</h4>
+            <ul>
+              <li><a href="https://trade.phantom.com/token/FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump">Buy $VIBE</a></li>
+              <li><a href="https://pump.fun/coin/FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump">Pump.fun</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Vibe Coding. All rights reserved.</p>
+          <p class="footer-contract">Contract: <code>FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump</code></p>
+        </div>
       </div>
+    </footer>
 
-      <div class="footer-section">
-        <h4>Trade</h4>
-        <ul>
-          <li><a href="https://trade.phantom.com/token/FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump">Buy $VIBE</a></li>
-          <li><a href="https://pump.fun/coin/FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump">Pump.fun</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <p>&copy; 2026 Vibe Coding. All rights reserved.</p>
-      <p class="footer-contract">Contract: <code>FWAUjiMZv4Hh6CR8m8m6QGb1k5hkhxWHHZ2ewXVTpump</code></p>
-    </div>
-  </div>
-</footer>
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
