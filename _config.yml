@@ -1,12 +1,13 @@
 title: "Vibe Coding"
-description: "Solana's central hub for today's hottest vibe coding projects."
+description: "The hub for modern builders shipping with AI on Solana."
 remote_theme: pages-themes/midnight@v0.2.0
 url: "https://vibecodingtoken.github.io"
 baseurl: ""
 header_pages:
   - index.md
-  - token.md
+  - directory.md
   - listing.md
+  - token.md
   - resources.md
   - legal.md
 plugins:
